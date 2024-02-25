@@ -1,4 +1,4 @@
-How to use nmap better and faster
+# How to use nmap better and faster
 ### Installation
 
 ```
