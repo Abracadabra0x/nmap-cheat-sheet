@@ -1,4 +1,5 @@
 # How to use nmap better and faster
+
 ### Installation
 
 ```
@@ -35,35 +36,37 @@ Verbos output
 	-> nmap -v {target-ip} allow you to get more detailed information during the scan
 
  Scan multie Ip Adress
- 
-    you can provid nmap with more then one ip adress just by adding a space
-    -> nmap 127.0.0.1 128.1.2.3 192.168.1.1
 
-	 Scan the SubNet (CIDIR)
+    	-> nmap 127.0.0.1 128.1.2.3 192.168.1.1
+
+Scan the SubNet (CIDIR)
+
      nmap 192.168.1.1/24
 
-	Scan Ip Range
+Scan Ip Range
+
     -> nmap 192.168.1-10
 
-	 Scan A list of Ip Address
+Scan A list of Ip Address
+
     -> nmap -iL filename.txt
 
-	 Exclued your target
+ Exclued your target
 	 
     -> nmap 192.168.1.1/24 --exclude 192.168.1.5
     
     -> nmap 192.168.1.1/24 --excludefile filename.txt
 
-	 Show only the open ports
+ Show only the open ports
 	 
     -> nmap --open 192.168.1.1
 
-## How to do Fast Scan using nmap
+ How to do Fast Scan using nmap
 
     -> nmap -F {Ip Adress} -> only common port are check for
 
   
-## Os Detection with nmap
+ Os Detection with nmap
 
     -> nmap -O {Ip}
 
