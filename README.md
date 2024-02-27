@@ -39,7 +39,7 @@ Verbos output
 
     	-> nmap 127.0.0.1 128.1.2.3 192.168.1.1
 
-Scan the SubNet (CIDIR)
+Scan the SubNet (CIDR)
 
      nmap 192.168.1.1/24
 
